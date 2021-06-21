@@ -226,11 +226,16 @@ footer p:last-child {
 
 	.countdown > span {
 		font-size: 0.875rem;
+		padding: 0.25rem 3rem;
 	}
 
 	#info {
 		border: none
 		box-shadow: none;
+	}
+
+	#info h3 {
+		font-size: 1.5rem;
 	}
 
 	footer {
