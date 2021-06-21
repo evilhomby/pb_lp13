@@ -3,7 +3,8 @@
 ************************************************************/
 :root {
 	--primary: #c60013;
-	--primary-font: 'Shin Go Regular';
+	--primary-normal-font: 'Shin Go Regular';
+	--primary-bold-font: 'Shin Go DeBold';
 }
 .bg-primary {
 	background-color: var(--primary) !important;
@@ -33,21 +34,19 @@ html, body {
 	padding: 0px;
 }
 body {
-	font-family: var(--primary-font);
-	/*font-family: Shin Go DeBold;*/
-	/* font-family: メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "A-OTF 新ゴ Pro", "A-OTF Shin Go Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+	font-family: メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "A-OTF 新ゴ Pro", "A-OTF Shin Go Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
 	/*font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', sans-serif;*/
 	-webkit-font-smoothing: antialiased;
 }
-h3 {
-	font-family: "Noto Sans Japanese";
-	font-weight: 900;
-	font-size: 2.25rem;
-	margin: 0;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:  var(--primary-normal-font);
 }
-h4 {
-	font-weight: 900;
+
+strong, .strong {
+	font-family: var(--primary-bold-font) ;
 }
+
 p {
 	font-weight: normal;
 	margin-bottom: 1.7rem;
