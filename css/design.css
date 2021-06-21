@@ -34,6 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:  var(--primary-normal-font);
 }
 
+h1 {
+	font-size:  5rem;
+}
+
+h2 {
+	font-size:  4rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
 strong, .strong {
 	font-family: var(--primary-bold-font) ;
 }
@@ -46,6 +58,8 @@ strong, .strong {
 	color: #f5d860;
 	padding: 10px 0;
 	font-size: 1.25rem;
+	position: relative;
+	z-index: 99;
 }
 
 .countdown > span {
@@ -55,6 +69,12 @@ strong, .strong {
 	border-radius:  100px;
 }
 
+#info {
+	border: 1px solid #bcbcbc;
+	border-top: none;
+	border-bottom: none;
+	box-shadow: 0 0 5px 5px #e2e2e2;
+}
 
 
 
@@ -192,8 +212,25 @@ footer p:last-child {
 		font-size: 0.95rem;
 	}
 
+	h1 {
+		font-size: 2.25rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
 	.countdown > span {
 		font-size: 0.875rem;
+	}
+
+	#info {
+		border: none
+		box-shadow: none;
 	}
 
 	footer {
