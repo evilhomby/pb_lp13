@@ -69,7 +69,7 @@ strong, .strong {
 	border-radius:  100px;
 }
 
-#info {
+#intro {
 	border: 1px solid #bcbcbc;
 	border-top: none;
 	border-bottom: none;
@@ -229,12 +229,12 @@ footer p:last-child {
 		padding: 0.25rem 3rem;
 	}
 
-	#info {
+	#intro {
 		border: none
 		box-shadow: none;
 	}
 
-	#info h3 {
+	#intro h3 {
 		font-size: 1.5rem;
 	}
 
