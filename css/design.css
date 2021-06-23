@@ -39,11 +39,11 @@ h1 {
 }
 
 h2 {
-	font-size:  4rem;
+	font-size:  3.75rem;
 }
 
 h3 {
-	font-size: 3rem;
+	font-size: 2.75rem;
 }
 
 strong, .strong {
@@ -123,6 +123,14 @@ footer p {
 	font-weight: 400;
 }
 
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--primary);
+	text-decoration: none;
+}
 
 /************************************************************
 * 行動裝置樣式
@@ -155,7 +163,7 @@ footer p {
 	}
 
 	#intro h3 {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 	}
 
 	.text-small {
